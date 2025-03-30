@@ -1,0 +1,1 @@
+A simple way of freeing memory safely in C using a defer function that accepts a variable number of arguments.
