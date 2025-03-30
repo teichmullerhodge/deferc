@@ -18,10 +18,9 @@ int main(int argc, char **argv) {
   (void)argc;
   (void)argv;
 
-  FILE *file = fopen("some_file.txt", "wb");
   char *name = malloc(sizeof(char) * 32);
   char *CPF = malloc(sizeof(char) * 11);
   s32 *array = malloc(sizeof(s32) * 64);
-  defer(name, CPF, array, file, NULL);
+  defer(name, CPF, array, NULL);
   return 0;
 }
